@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.balarajum.swiping">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/home"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".MyHome"
+            android:allowEmbedded="true"/>
+        <activity android:name=".Selection_one"
+            android:allowEmbedded="true"/>
+        <activity android:name=".MyItem"
+            android:allowEmbedded="true"/>
+        <activity android:name=".Signup"
+            android:allowEmbedded="true"/>
+        <activity android:name=".UserProfile"
+            android:allowEmbedded="true"/>
+        <activity android:name=".UserLog"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".Scroll"
+            android:label="@string/item_one"
+            android:exported="true"></activity>
+    </application>
+
+</manifest>

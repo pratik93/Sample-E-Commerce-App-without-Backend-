@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/cart"
+        android:icon="@drawable/download"
+        android:showAsAction="always"
+        android:visible="true"/>
+    <item android:title="Home"
+        android:id="@+id/one"
+        />
+    <item android:title="Profile"
+        android:id="@+id/two"
+        />
+    <item android:title="Log"
+        android:id="@+id/three"
+        />
+    <item android:title="Logout"
+        android:id="@+id/four"
+        />
+</menu>
